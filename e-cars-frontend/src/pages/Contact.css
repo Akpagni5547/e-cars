@@ -1,0 +1,142 @@
+.Ap3 .herop-container {
+    background-image: url('/public/images/contact/contact.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Ap3 .herop-container .diag {
+    margin-top: -9vh;
+    height: 24vh;
+}
+
+.ContactSectionContainer {
+    background-color: #F0F1FA;
+    padding-inline: 10vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 8rem;
+}
+
+.presentationTxt {
+    font-size: 10px;
+    width: 40vw;
+    padding-inline: 3rem;
+    color: #00024F;
+    text-align: center;
+}
+
+.champs {
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    /* column-gap: 20px; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.champs .champ1 {
+    width: 19.7vw;
+    background-color: #FFFFFF;
+    height: 30px;
+}
+
+.champs .champ2 {
+    width: 40vw;
+    background-color: #FFFFFF;
+    height: 160px;
+}
+
+.inf_part {
+    width: 30vw;
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    /* column-gap: 20px; */
+    justify-content: space-between;
+}
+
+.e_c_sup {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.CercleRed {
+    padding: 5px;
+    height: 10px;
+    background-color: #DD0B15;
+    width: 10px;
+    border-radius: 5px;
+}
+
+.Ctct {
+    margin-top: 60px;
+}
+
+.e_c {
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.btnEnvoyer {
+    font-size: 12px;
+    padding-inline: 15px;
+    padding-top: 5px;
+    color: white;
+    background-color: #DD0B15;
+    height: 30px;
+}
+
+.ct {
+    font-size: 11px;
+    font-weight: bold !important;
+    color: #00024F;
+}
+
+@media screen and (max-width: 1023px) {
+    .Ap3 .herop-container {
+        background-image: url('/public/images/contact/contact.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 13vh;
+    }
+    .Ap3 .herop-container .diag {
+        height: 11vh;
+        margin-top: -2vh;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .ContactSectionContainer {
+        background-color: #F0F1FA;
+        padding-inline: 8vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap: 20px;
+        column-gap: 20px;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 8rem;
+    }
+    .presentationTxt {
+        font-size: 10px;
+        width: 50vw;
+        padding-inline: 1rem;
+        color: #00024F;
+        text-align: center;
+    }
+}

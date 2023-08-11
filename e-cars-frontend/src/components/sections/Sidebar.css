@@ -1,0 +1,47 @@
+.sidebar_open {
+    padding: 10px;
+    padding-top: 30px;
+    margin-top: -23px;
+    width: 300px;
+    display: block;
+    background-color: white;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.history_card {
+    margin: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2px;
+    width: 280px;
+    height: 60px;
+    color: white;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.sidebar_closed {
+    display: none;
+}
+
+.sidebar_page {
+    background-color: black;
+}
+
+.history_button {
+    width: 100px;
+    color: white;
+    background-color: #E0001B;
+    font-weight: bold;
+    border: none;
+    padding: 6px;
+}
+
+.image_car {
+    height: 55px;
+    width: 55px;
+    background-size: cover;
+    background-color: white;
+}

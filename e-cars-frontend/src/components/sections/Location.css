@@ -1,0 +1,70 @@
+.locationContainer {
+    background-color: #F0F1FA;
+    padding: 6vw;
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 4vw;
+    column-gap: 5vw;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.leftPart {
+    padding: 20px;
+    width: 30vw;
+    height: 36vh;
+}
+
+.leftPartTitle {
+    font-size: 25px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+
+.leftPartText {
+    font-size: 12px;
+}
+
+.rightPart {
+    height: 47vh;
+    width: 37vw;
+    background-size: cover;
+    background-image: url('/public/images/ENSEIGNE/ENSEIGNE.png');
+}
+
+@media screen and (max-width: 1023px) {
+    .rightPart {
+        padding-block: 20px;
+        height: 17vh;
+        width: 35vw;
+        background-size: contain;
+        background-image: url('/public/images/ENSEIGNE/ENSEIGNE.png');
+    }
+    .leftPart {
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .locationContainer {
+        background-color: #F0F1FA;
+        height: 800px;
+        padding-inline: 3vw;
+        column-gap: 5vw;
+        width: 100vw;
+        display: grid;
+        grid-template-areas: 'leftPart' 'rightPart';
+    }
+    .rightPart {
+        grid-area: rightPart;
+        width: 60vw;
+    }
+    .leftPart {
+        height: 550px;
+        grid-area: leftPart;
+        width: 60vw;
+    }
+}

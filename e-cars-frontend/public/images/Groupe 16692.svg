@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="Groupe_16692" data-name="Groupe 16692" transform="translate(-1689 -64)">
+    <rect id="Rectangle_6217" data-name="Rectangle 6217" width="4" height="4" transform="translate(1694 69)" fill="#fff"/>
+    <rect id="Rectangle_6220" data-name="Rectangle 6220" width="4" height="4" transform="translate(1701 69)" fill="#fff"/>
+    <rect id="Rectangle_6222" data-name="Rectangle 6222" width="4" height="4" transform="translate(1708 69)" fill="#fff"/>
+    <rect id="Rectangle_6218" data-name="Rectangle 6218" width="4" height="4" transform="translate(1694 76)" fill="#fff"/>
+    <rect id="Rectangle_6219" data-name="Rectangle 6219" width="4" height="4" transform="translate(1701 76)" fill="#fff"/>
+    <rect id="Rectangle_6223" data-name="Rectangle 6223" width="4" height="4" transform="translate(1701 83)" fill="#fff"/>
+    <rect id="Rectangle_6221" data-name="Rectangle 6221" width="4" height="4" transform="translate(1708 76)" fill="#fff"/>
+    <rect id="Rectangle_6224" data-name="Rectangle 6224" width="4" height="4" transform="translate(1708 83)" fill="#fff"/>
+    <path id="Rectangle_6225" data-name="Rectangle 6225" d="M2,1A1,1,0,0,0,1,2V26a1,1,0,0,0,1,1H26a1,1,0,0,0,1-1V2a1,1,0,0,0-1-1H2M2,0H26a2,2,0,0,1,2,2V26a2,2,0,0,1-2,2H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0Z" transform="translate(1689 64)" fill="#fff"/>
+  </g>
+</svg>

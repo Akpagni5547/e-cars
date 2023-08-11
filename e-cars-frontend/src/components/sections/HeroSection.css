@@ -1,0 +1,219 @@
+.diag {
+    height: 65vh;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 760px;
+    clip-path: polygon(66% 0%, 100% 100%, 34% 100%, 0% 0%);
+    /*  opacity: 0.75; */
+    margin-left: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    text-align: center;
+    height: 338px;
+    width: 511px;
+    margin-top: 120px;
+    margin-left: 120px;
+}
+
+#bar {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.ecars {
+    text-align: left;
+    width: inherit;
+    line-height: 1rem;
+}
+
+.text_p_h {
+    height: 130px;
+    width: 300px;
+}
+
+span {
+    color: red;
+}
+
+.mrq {
+    text-align: left;
+    width: inherit;
+    font-size: 75px;
+    font-weight: bold;
+    line-height: 4rem;
+}
+
+.mdl {
+    text-align: right;
+    width: inherit;
+    line-height: 3rem;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.rsrv {
+    font-size: 12px;
+}
+
+.prx {
+    font-size: 55px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.hero-container {
+    background: url('/public/images/voiture.png') no-repeat center center;
+    /*    background: url(backgroud-image.jpg) no-repeat center center fixed; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 79vh;
+    object-fit: contain;
+    overflow: hidden;
+    /*   background-size: contain; */
+}
+
+.hero-container>h1 {
+    color: #fff;
+    font-size: 100px;
+    margin-top: -100px;
+}
+
+.hero-container>p {
+    margin-top: 8px;
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hero-btns {
+    margin-top: 32px;
+}
+
+.hero-btns .btn {
+    margin: 6px;
+}
+
+.fa-play-circle {
+    margin-left: 4px;
+}
+
+@media screen and (max-width: 1023px) {
+    .hero-container>h1 {
+        font-size: 70px;
+        margin-top: -150px;
+    }
+    .hero-container {
+        background-color: red;
+        height: 36vh;
+        background-size: 100%;
+    }
+    .diag {
+        background-color: rgba(0, 0, 0, 0.75);
+        height: 60%;
+        width: 50vw;
+        margin-left: 6rem;
+    }
+    .text {
+        text-align: center;
+        height: 26vh;
+        width: 35vw;
+        margin-top: 8vh;
+    }
+    .text_p_h {
+        height: 10vh;
+        width: 300px;
+    }
+    .prx {
+        font-size: 20px;
+        font-weight: bold;
+        padding-bottom: 5px;
+    }
+    .rsrv {
+        font-size: 8px;
+    }
+    .ecars {
+        text-align: left;
+        width: inherit;
+        font-size: 10px;
+    }
+    .mrq {
+        text-align: left;
+        width: inherit;
+        font-size: 35px;
+        font-weight: bold;
+        line-height: 2rem;
+    }
+    .mdl {
+        margin-left: -50px;
+        text-align: center;
+        width: inherit;
+        font-size: 25px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .hero-container>h1 {
+        font-size: 70px;
+        margin-top: -150px;
+    }
+    .hero-container {
+        height: 24vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .diag {
+        background-color: rgba(0, 0, 0, 0.75);
+        height: 60%;
+        width: 50vw;
+        margin-left: 6rem;
+    }
+    .text {
+        text-align: center;
+        height: 20vh;
+        width: 35vw;
+        margin-left: -0vw;
+        margin-top: 5.5vh;
+    }
+    .text_p_h {
+        height: 6vh;
+        width: 300px;
+    }
+    .prx {
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 6px;
+        padding-bottom: 0px;
+    }
+    .rsrv {
+        font-size: 7px;
+    }
+    .ecars {
+        text-align: left;
+        width: inherit;
+        font-size: 6px;
+    }
+    .mrq {
+        text-align: left;
+        width: inherit;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 1rem;
+    }
+    .mdl {
+        margin-left: -100px;
+        margin-top: -13px;
+        text-align: center;
+        width: inherit;
+        font-size: 12px;
+        font-weight: bold;
+    }
+}

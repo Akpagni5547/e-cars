@@ -1,0 +1,21 @@
+.Ap1 .herop-container {
+    background-image: url('/public/images/apropos/apropos.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Ap1 .herop-container .diag {
+    height: inherit;
+}
+
+@media screen and (max-width: 1023px) {
+    .Ap1 .herop-container {
+        background-image: url('/public/images/apropos/apropos.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 13vh;
+    }
+}

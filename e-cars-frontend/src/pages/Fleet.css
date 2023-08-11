@@ -1,0 +1,26 @@
+.Ap2 .herop-container {
+    background-image: url('/public/images/flotte/flotte.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Ap2 .herop-container .diag {
+    margin-top: -9vh;
+    height: 24vh;
+}
+
+@media screen and (max-width: 1023px) {
+    .Ap2 .herop-container {
+        background-image: url('/public/images/flotte/flotte.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 13vh;
+    }
+    .Ap2 .herop-container .diag {
+        height: 11vh;
+        margin-top: -2vh;
+    }
+}

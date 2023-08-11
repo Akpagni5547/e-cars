@@ -1,0 +1,231 @@
+/* Modal */
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+.vraiModal {
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    width: 75%;
+    position: fixed;
+    height: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 1px;
+}
+
+.vraiModal2 {
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    width: 75%;
+    position: fixed;
+    height: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 1px;
+}
+
+.modalContainer {
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 1px;
+}
+
+.modalRight {}
+
+.formR {
+    width: 40%;
+}
+
+.modalContainer .imageSelected {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.floatiin_div_modal {
+    padding-left: 10px;
+    z-index: 10;
+    height: 20%;
+    margin-top: -11rem;
+}
+
+.floatiin_div_modal img {
+    margin: 8px;
+    height: 100%;
+    width: 18%;
+    border: 1px solid white;
+}
+
+.floatiin_div_modal img:hover {
+    margin: 8px;
+    height: 100%;
+    border: 1px solid transparent;
+}
+
+.closeBtn {
+    position: fixed;
+    top: 8px;
+    right: 8px;
+}
+
+.closeBtn2 {
+    position: fixed;
+    top: 8px;
+    right: 8px;
+    color: white;
+}
+
+.content {
+    /*   display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    text-align: left;
+    padding: 2rem;
+}
+
+.ConfirmationDate {
+    display: flex;
+    width: 250px;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.requestForm {
+    padding: 20px;
+    padding-top: 50px;
+    background-color: gainsboro;
+}
+
+.momo {
+    display: flex;
+    align-items: stretch;
+}
+
+.dateTitre {
+    font-size: 12px;
+}
+
+.champ {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.label {
+    text-align: right;
+    width: 93px;
+    font-size: 14px;
+}
+
+input,
+select {
+    margin: 10px;
+    height: 30px;
+    width: 250px;
+}
+
+.caracterisq_modal {
+    grid-auto-flow: column;
+    display: grid;
+    grid-gap: 10px;
+    font-size: 12px;
+    list-style: none;
+    width: inherit;
+    padding-top: 20px;
+}
+
+.apa_modal {
+    padding-top: 30px;
+    font-size: 10px;
+}
+
+.marq_modal {
+    font-weight: bold;
+}
+
+.dateZone .prix_modal {
+    font-weight: bold;
+}
+
+.demande {
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btnContainer {
+    display: flex;
+    /*   flex-direction: row; */
+    padding: 1rem 1rem;
+}
+
+.btnContainer button {
+    position: absolute;
+    bottom: 2rem;
+    width: 15%;
+    padding: 16px;
+    /* border: none; */
+    border: 1px solid #DD0B15;
+    /* color: #ffffff; */
+}
+
+.btnPrimary {
+    background-color: #DD0B15;
+    color: white;
+}
+
+.btnOutline {
+    /* background-color: #a76a99; */
+    background-color: white;
+    color: #411b57;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+@media screen and (max-width: 500px) {
+    .modalContainer {
+        flex-direction: column;
+        top: 0;
+        left: 0;
+        transform: none;
+        width: 100%;
+        height: 100vh;
+    }
+    img {
+        width: 100%;
+        max-height: 70vh;
+        object-fit: cover;
+    }
+    .heading {
+        margin: 1rem;
+    }
+}

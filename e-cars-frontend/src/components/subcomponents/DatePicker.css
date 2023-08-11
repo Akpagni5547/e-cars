@@ -1,0 +1,45 @@
+.datepicker {
+    font-size: 12px;
+    width: 100px;
+    padding-right: 3px;
+}
+
+.datepicker {
+    z-index: 2;
+    font-size: 12px;
+}
+
+.datepicker .datepicker_btn {
+    padding: 10px;
+    background-color: #F0F1FA;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.datepicker .datepicker_btn:hover {
+    background-color: red;
+    color: white;
+}
+
+.datepicker .datepicker_btn:focus {
+    background-color: red;
+    color: white;
+}
+
+.V {
+    color: black;
+}
+
+.datepicker .datepicker_content {
+    position: absolute;
+    top: 110%;
+    background-color: #B3B5C9;
+    width: 100%;
+    left: 0;
+}
+
+.datepicker .datepicker_content .datepicker_item {}
+
+.datepicker .datepicker_content .datepicker_item:hover {}

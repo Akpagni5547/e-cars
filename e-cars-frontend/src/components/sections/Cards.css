@@ -1,0 +1,168 @@
+.grid_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards {
+    padding: 3rem;
+    background: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+.cards_car {
+    width: 400px;
+    height: 590px;
+}
+
+.cards_car .top_space {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: inherit;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cards_car:hover .top_space {
+    background-image: url("/public/images/volant.jpg");
+}
+
+.cards_car .top_space .PLUS {
+    display: none;
+}
+
+.cards_car:hover .top_space .image_1 {
+    display: none;
+}
+
+.image_1 {
+    width: inherit;
+    height: inherit;
+}
+
+.cards_car:hover .top_space .PLUS {
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+    padding: 20px 50px;
+    background-color: white;
+}
+
+.FLEET {
+    text-align: center;
+    width: 250px;
+    font-size: 12px;
+    margin-top: 50px;
+    padding: 20px 30px;
+    color: white;
+    background-color: #E0001B;
+    text-decoration: none;
+    border: none;
+    margin-left: 40%;
+}
+
+.cards_car .botm_space {
+    width: inherit;
+    background-color: white;
+    height: 190px;
+}
+
+.cards_car:hover .botm_space {
+    width: inherit;
+    height: 190px;
+    color: white;
+    background-color: #E0001B;
+}
+
+.btn_space1 {
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.btn_space2 {
+    padding-top: 15px;
+}
+
+.btn_space1_h {
+    text-align: center;
+}
+
+.btn_space2_h {
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.btn_space1_b {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.btn_space2_b {
+    text-align: center;
+}
+
+.cards_car .botm_space .btn_space1 {
+    width: inherit;
+    height: 110px;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
+
+.cards_car:hover .botm_space .btn_space1 {
+    width: inherit;
+    height: 110px;
+    border-bottom: 1px solid white;
+    font-weight: bold;
+}
+
+.cards_car .botm_space .btn_space2 {
+    width: inherit;
+    height: 80px;
+}
+
+.cards_car .botm_space .btn_space1 .btn_space1_b .nav-menuC {
+    grid-template-columns: repeat(7, auto);
+    display: grid;
+    font-size: 13px;
+    padding-inline: 45px;
+    list-style: none;
+    width: inherit;
+}
+
+@media only screen and (max-width: 1023px) {
+    .FLEET {
+        text-align: center;
+        width: 60%;
+        font-size: 12px;
+        margin-top: 50px;
+        padding: 20px 30px;
+        color: white;
+        background-color: #E0001B;
+        text-decoration: none;
+        justify-content: space-around;
+        border: none;
+        margin-left: 20%;
+    }
+    .cards_car {
+        width: 350px;
+        height: 590px;
+    }
+}
+
+@media only screen and (max-width: 767) {
+    .image_1 {
+        width: 300px;
+        height: inherit;
+    }
+}

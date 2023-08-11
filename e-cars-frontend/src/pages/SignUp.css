@@ -1,0 +1,35 @@
+.login-form {
+    padding-block: 30px;
+    margin: auto;
+    width: 360px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.login-input {
+    border: none;
+    width: 250px;
+    text-align: center;
+}
+
+label {
+    color: white;
+    margin: 20px;
+}
+
+.SignUp {
+    display: flex;
+    align-items: center;
+    height: 70vh;
+    background: url('/public/images/voiture.png') no-repeat center center;
+    background-size: cover;
+}
+
+.login-button {
+    margin: 20px;
+    padding: 10px;
+    width: 150px;
+    background-color: red;
+    color: white;
+    border: none;
+}

@@ -1,0 +1,10 @@
+{
+  apps : [
+    {
+      name      : "ecars-backoffice",
+      script    : "npx",
+      interpreter: "none",
+      args: "serve -p 8081 build"
+    }
+  ]
+}

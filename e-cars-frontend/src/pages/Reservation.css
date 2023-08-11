@@ -1,0 +1,8 @@
+.reservation_page {
+    display: flex;
+    flex-direction: row;
+}
+
+.reservation_now {
+    flex: 1;
+}

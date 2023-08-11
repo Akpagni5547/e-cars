@@ -1,0 +1,197 @@
+    /* 
+.bienvenueContainer */
+    
+    .customSelect {
+        display: inline-block;
+        text-align: left;
+        position: relative;
+        font-size: 12px;
+    }
+    
+    .Trouver {
+        background-color: #DD0B15;
+        color: white;
+        padding-inline: 40px;
+        padding-top: 19px;
+        padding-bottom: 19px;
+        font-size: 12px;
+        margin-top: 18px;
+    }
+    
+    .customSelect span {
+        font-size: 12px;
+        color: #B3B5C9;
+    }
+    
+    select {
+        background-color: red;
+    }
+    
+    .dateChoice {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .flotingDiv {
+        width: inherit;
+        display: flex;
+        flex-flow: row wrap;
+        flex-wrap: wrap;
+        row-gap: 20px;
+        column-gap: 20px;
+        align-items: center;
+        justify-content: center;
+        /* position: absolute; */
+        /*  left: calc(50% - 45px); */
+        margin-top: -14vh;
+        height: 230px;
+        background-color: white;
+        grid-area: header;
+    }
+    
+    .flotingDiv .customSelect {
+        position: relative;
+        width: 205px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .bienvenueContainer {
+        /*  z-index: 999999; */
+        background-color: #F0F1FA;
+        height: 380px;
+        text-align: center;
+        display: grid;
+        grid-template-areas: 'header header header' 'menu right right';
+        gap: 10px;
+        padding-inline: 7rem;
+    }
+    
+    .petitText {
+        font-size: 13px;
+    }
+    
+    .grandText {
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 2rem;
+    }
+    
+    .TextRed {
+        color: red;
+    }
+    
+    .container2 {
+        grid-area: right;
+        display: grid;
+        grid-template-areas: 'area1 area2 area3';
+        gap: 10px;
+        margin-top: -30px;
+        justify-content: space-between;
+    }
+    
+    .imgB {
+        height: 110px;
+    }
+    
+    figure {
+        width: 112px;
+        text-align: center;
+    }
+    
+    figcaption {
+        padding: 2px;
+        text-align: center;
+    }
+    
+    .container1 {
+        text-align: left;
+        grid-area: menu;
+        /* margin-left: -900px; */
+    }
+    
+    .item1 {
+        grid-area: area1;
+    }
+    
+    .item2 {
+        grid-area: area2;
+    }
+    
+    .item3 {
+        grid-area: area3;
+    }
+    
+    @media screen and (max-width: 1023px) {
+        .flotingDiv {
+            width: inherit;
+            display: flex;
+            flex-flow: row wrap;
+            flex-wrap: wrap;
+            row-gap: 20px;
+            column-gap: 20px;
+            align-items: left;
+            justify-content: space-around;
+            margin-top: -14vh;
+            height: 230px;
+            background-color: white;
+            grid-area: header;
+            padding-left: 22px;
+        }
+        .Trouver {
+            width: 205px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    }
+    
+    @media screen and (max-width: 767px) {
+        .flotingDiv {
+            width: inherit;
+            display: flex;
+            flex-flow: row wrap;
+            flex-wrap: wrap;
+            row-gap: 10px;
+            column-gap: 20px;
+            align-items: center;
+            justify-content: space-around;
+            margin-top: -9.5vh;
+            height: 470px;
+            background-color: white;
+            grid-area: header;
+            padding-left: 2px;
+        }
+        .Trouver {
+            width: 205px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .container2 {
+            grid-area: right;
+            display: flex;
+            grid-template-areas: ' area1 area2 area3 ';
+            gap: 1px;
+            width: 80vw;
+            margin-top: -30px;
+            justify-content: space-around;
+        }
+        .imgB {
+            width: 70px;
+            height: 70px;
+        }
+        figure {
+            width: 50px;
+            text-align: center;
+            font-size: 10px;
+        }
+        .bienvenueContainer {
+            background-color: #F0F1FA;
+            height: 750px;
+            text-align: center;
+            display: grid;
+            grid-template-areas: 'header header header' 'menu menu menu' 'right right right';
+            gap: 10px;
+            padding-inline: 2rem;
+        }
+    }

@@ -1,0 +1,110 @@
+.ConfianceContainer {
+    /* height: 460px; */
+    align-items: center;
+    justify-content: center;
+}
+
+.partCard {
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.titre_petit {
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.partTitle {
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    text-align: center;
+}
+
+.cardsConfiance {
+    height: 300px;
+    width: 400px;
+    font-size: 12px;
+    background-color: white;
+}
+
+.dialog {
+    background-color: transparent;
+    font-style: italic;
+    padding: 40px;
+    height: 220px;
+    width: inherit;
+    background-size: cover;
+    background-image: url('/public/images/Trace3232.svg');
+    /* Trace3230.svg */
+    background-repeat: no-repeat;
+}
+
+.dialog2 {
+    background-color: transparent;
+    font-style: italic;
+    padding: 40px;
+    height: 220px;
+    color: white;
+    width: inherit;
+    background-size: cover;
+    background-image: url('/public/images/Trace3230.svg');
+    /* Trace3230.svg */
+    background-repeat: no-repeat;
+}
+
+.imgConf img {
+    height: 80px;
+    margin-top: -15px;
+}
+
+.confianceB {
+    font-size: 12px;
+    display: grid;
+    text-align: center;
+    margin: auto;
+    width: 200px;
+    grid-template-columns: repeat(2, auto);
+}
+
+@media screen and (max-width: 1023px) {
+    .dialog {
+        background-color: transparent;
+        font-style: italic;
+        height: 130px;
+        width: 300px;
+        width: inherit;
+        background-size: cover;
+        background-image: url('/public/images/Trace3232.svg');
+        /* Trace3230.svg */
+        background-repeat: no-repeat;
+    }
+    .dialog2 {
+        background-color: transparent;
+        font-style: italic;
+        height: 130px;
+        width: 300px;
+        color: white;
+        width: inherit;
+        background-size: cover;
+        background-image: url('/public/images/Trace3230.svg');
+        /* Trace3230.svg */
+        background-repeat: no-repeat;
+    }
+    .cardsConfiance {
+        height: 300px;
+        width: 320px;
+        font-size: 10px;
+    }
+    .partCard {
+        padding: 10px;
+    }
+}
